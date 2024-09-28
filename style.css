@@ -1,0 +1,12 @@
+p {
+    color: teal;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: teal;
+    background-color: aqua;
+}
+img{ 
+    border-radius: 200%;
+}
