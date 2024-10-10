@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, lightcoral, lightgreen);
+    padding: 10px;
+}
+.container{
+    background: whitesmoke;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    filter: drop-shadow(10px 10px 20px)
+}
+.container .heading{
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+}
+.container .namedetail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.namedetail .inputbox{
+    width: calc(100%/2-20px);
+}
+.namedetail .inputbox input{
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid forestgreen;
+}
